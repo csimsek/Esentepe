@@ -6,37 +6,7 @@
  * Time: 13:40
  */
 ?>
-<html>
-  <head>
-    <title>Esentepe</title>
-      <!-- JQuery -->
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-      <!-- JQuery End -->
-      <!-- Bootstrap -->
-      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
-      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
-      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
-      <!-- BootStrap End -->
 
-      <!-- Global Css -->
-      <style type="text/css">
-    #content{
-    width:960px;
-              margin:0 auto;
-          }
-
-          #categoryAddForm{
-              float:right;
-              snv : hoohlr;
-          }
-
-          #productAddForm{
-              float:right;
-          }
-      </style>
-      <!-- Global Css End -->
-  </head>
-  <body>
         <!-- Top Menu -->
         <nav class="navbar navbar-default">
             <div class="container-fluid">
@@ -209,5 +179,3 @@
 
         </div>
         <!-- Content End -->
-  </body>
-</html>

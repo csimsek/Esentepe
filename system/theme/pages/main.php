@@ -27,6 +27,7 @@
 
           #categoryAddForm{
               float:right;
+              snv : hoohlr;
           }
 
           #productAddForm{

@@ -19,6 +19,9 @@ class ApplicationEngine{
     // Page Settings
     public $pageBasePath    = 'system/theme/pages/';
 
+    // Service Settings
+    public $serviceBasePath = 'system/theme/services/';
+
     function __construct(){
 
         // Re-Define Frond-End Settings
@@ -26,6 +29,9 @@ class ApplicationEngine{
 
         // Re-Define Page Settings
         $this->pageBasePath = $this->applicationPath . $this->pageBasePath;
+
+        // Re-Define Service Settings
+        $this->serviceBasePath = $this->applicationPath . $this->serviceBasePath;
     }
 
 

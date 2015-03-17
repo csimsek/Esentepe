@@ -24,6 +24,9 @@
                             <th>Kategoriler</th>
                             <th style="width:30px;">İşlem</th>
                         </tr>
+                        <?php
+
+                        ?>
                         <tr>
                             <td>Izgaralar</td>
                             <td>

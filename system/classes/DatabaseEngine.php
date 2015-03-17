@@ -25,6 +25,22 @@ class DatabaseEngine {
         }
     }
 
+    function executeQuery($sql,$inputs){
+        $query = $this->dbConn->prepare($sql);
+        $insert = $query->execute($inputs);
+    }
+
+    function getData($sql){
+        $datas = $this->dbConn->query($sql,PDO::FETCH_ASSOC);
+        $responseData = null;
+        foreach ($datas as $data) {
+            $responseData[] = $data;
+        }
+
+        return $responseData;
+    }
+
+
     function search(){
         $query = $this->dbConn->prepare("INSERT INTO uyeler SET
           uye_kadi = :kadi,
